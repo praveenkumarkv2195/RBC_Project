@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.util.List;
 
 @RestController
-@RequestMapping("/stock-data")
+@RequestMapping("api/stock-data")
 public class StockController {
 
     @Autowired
